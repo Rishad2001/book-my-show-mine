@@ -25,4 +25,4 @@ export default DefaultHOC;
 
 // ... for spreading
 
-// jsx aavumbol arrow functionille simple bracket mathi eg => ()
+// jsxil taginte ullil aavumbol arrow functionille simple bracket mathi eg => ()
