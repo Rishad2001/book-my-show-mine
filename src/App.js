@@ -4,12 +4,16 @@ import { Route } from "react-router";
 import DefaultHOC from "./HOC/Default.HOC";
 
 //components
-import Temp from "./components/temp";
+import HomePage from "./pages/Home.page";
+
+// css for react slick
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
    <>
-     <DefaultHOC path="/" exact  component={Temp} />
+     <DefaultHOC path="/" exact  component={HomePage} />
    </>
   );
 }
