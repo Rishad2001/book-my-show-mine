@@ -3,7 +3,7 @@ import React from "react";
 const Poster = (props) => {
     return (
       <>
-        <div className="flex flex-col items-start gap-2 px-3">
+        <div className="flex flex-col items-start gap-2 px-3 my-2">
           <div className="h-80">
             <img
               src={props.src}
@@ -12,7 +12,7 @@ const Poster = (props) => {
             />
           </div>
           <h3
-            className={`text-lg font-bold ${
+            className={`text-2xl font-bold ${
               props.isDark ? "text-white" : "text-gray-700"
             }`}
           >

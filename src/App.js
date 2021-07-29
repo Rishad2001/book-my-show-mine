@@ -2,9 +2,11 @@ import { Route } from "react-router";
 
 //HOC
 import DefaultHOC from "./HOC/Default.HOC";
+import MovieHOC from "./HOC/Movie.Hoc";
 
-//components
+//pages
 import HomePage from "./pages/Home.page";
+import Movie from "./pages/Movie.page"; 
 
 // css for react slick
 import "slick-carousel/slick/slick.css";
@@ -14,6 +16,7 @@ function App() {
   return (
    <>
      <DefaultHOC path="/" exact  component={HomePage} />
+     <MovieHOC path="/movie/:id" exact component={Movie} />
    </>
   );
 }
