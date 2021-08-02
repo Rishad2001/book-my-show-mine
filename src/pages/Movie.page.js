@@ -104,13 +104,28 @@ const Movie = () => {
                  </div>
                  </div>
 
-                 <div className="my-8">
-                 <PosterSlider 
+                <div className="my-8">
+                <div className="my-8">
+                     <hr />
+                 </div>
+                  <PosterSlider 
                     config={settings}
                     images={TempPosters} 
                     title="You might also like"
                     isDark={false} 
-            />
+                  />
+                 </div>
+
+                 <div className="my-8">
+                 <div className="my-8">
+                     <hr />
+                 </div>
+                  <PosterSlider 
+                    config={settings}
+                    images={TempPosters} 
+                    title="BMX xclusive"
+                    isDark={false} 
+                  />
                  </div>
             </div>
         </>
